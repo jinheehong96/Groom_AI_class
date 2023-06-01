@@ -30,4 +30,4 @@ for epoech in range(500):
     
     loss.backward() #구한 loss에서 gradient 구함
     
-    optimizer.step()
+    optimizer.step()# update the values
